@@ -14,4 +14,9 @@ body{
     color: green;
 }
   
-  
+@media only screen and (max-width: 768px){
+    .shadowbox{
+        display: block;
+    }
+    [class*="shadowbox"]
+}
